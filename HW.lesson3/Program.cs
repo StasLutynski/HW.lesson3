@@ -1,8 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-
+Console.WriteLine("Ведите первое число");
 double num1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите второе число");
 double num2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите радиус окружности");
 double R = Convert.ToDouble(Console.ReadLine());
 
 double sum = num1 + num2;
