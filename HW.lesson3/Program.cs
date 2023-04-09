@@ -11,8 +11,8 @@ double difference = power - sum;
 double sqRoot = Math.Sqrt(difference);
 double P = 2 * Math.PI * R;
 
-Console.WriteLine(sum);
-Console.WriteLine(power);
-Console.WriteLine(difference);
-Console.WriteLine(sqRoot);
-Console.WriteLine(P);
+Console.WriteLine(num1 + " + " + num2 + " = " + sum);
+Console.WriteLine(num2 + " в степени " + num1 + " = " + power);
+Console.WriteLine(power + " - " + sum + " = " +difference);
+Console.WriteLine("Квадратный корень из " + difference + " - " + sqRoot);
+Console.WriteLine("Длина окружности с радиусом " + R + " - " + P);
